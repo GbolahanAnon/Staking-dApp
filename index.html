@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header id="heady">
+      <h2 id="stakehead">STAKE MBT APP</h2>
+      <div class="form-group">
+        <button type="submit" id="token" class="btn">CONNECT WALLET</button>
+      </div>
+    </header>
+    <div class="container">
+      <br />
+      <h1>Stake MBT here and claim your rewards!</h1>
+      <br />
+      <p>Connect your wallet to get started.</p>
+      <hr />
+      <br />
+      <form action="" id="contact-form">
+        <div class="form-group">
+          <div id="getBuyValue" class="buyToken">
+            <div class="form-group">
+              <label id="getBuyValue" for="name">
+                Enter the amount of tokens you want to buy:
+              </label>
+              <div class="buyToken">
+                <input
+                  id="getBuyValue"
+                  class="inputT"
+                  type="text"
+                  name="name"
+                  placeholder="Amount of MBT"
+                />
+                <button id="buyToken" type="submit" class="btn">
+                  Buy Tokens
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="buyToken">
+            <div class="form-group">
+              <label for="name"
+                >Enter the amount of tokens you want to stake:
+              </label>
+              <div class="buyToken">
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="Amount of MBT to Stake"
+                />
+                <button type="submit" class="btn">Stake Tokens</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button type="submit" class="btn">Tokens Staked</button><br /><br />
+        <button type="submit" class="btn">Tokens Balance</button><br /><br />
+        <button type="submit" class="btn">Claim Rewards</button><br /><br />
+        <div class="form-group">
+          <div id="getBuyValue" class="buyToken">
+            <div class="form-group">
+              <label id="getBuyValue" for="name">
+                Enter the address you want to transfer tokens to:
+              </label>
+              <div class="buyToken">
+                <input
+                  id="getBuyValue"
+                  class="inputT"
+                  type="text"
+                  name="name"
+                  placeholder="Address"
+                />
+                <button id="buyToken" type="submit" class="btn">
+                  Transfer Tokens
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
