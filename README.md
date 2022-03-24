@@ -1,7 +1,8 @@
 ## Staking-contract-with-frontend
 
 ### Hosted UI Netlify Link
-<br />
 https://jade-croquembouche-a3fd1d.netlify.app/
+
+<hr>
 
 ### Testnet address to verified smart contract
